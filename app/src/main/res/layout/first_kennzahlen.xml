@@ -1,0 +1,351 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/design_default_color_background"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/headKennzahl"
+            android:layout_width="359dp"
+            android:layout_height="38dp"
+            android:padding="4dp"
+            android:text="Industrie 4.0-Kompetenz:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:hint="Mitarbeiter im Werk mit Industrie 4.0 Kompetenz"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:hint="Gesamtzahl der Mitarbeiter im Werk"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="400dp"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:text="Big Data-Integration:"
+             android:padding="4dp"
+             android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:hint="genutztes Datenvolumen"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonNameone"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:hint="Gesamtes in der Fertigung erfasstes Datenvolumen"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="IT-Auf geschlossenheit"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Downtime der Fertigung durch IT-Probleme "
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Gesamtdowtime der Fertigung"
+            android:inputType="number" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="4dp"
+            android:text="Strategische Bedeutung der IT in der Produktion:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nutzen der IT in der Fertigung in Euro "
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="315dp"
+            android:layout_height="60dp"
+            android:hint="Kosten der IT in der Fertigung in Euro"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Industrie 4.0 Innovationsstärke:"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Anzahl der Industrie 4.0 Projekte"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName9"
+            android:layout_width="299dp"
+            android:layout_height="60dp"
+            android:hint="Gesamtzahl der Innovationsprojekte in der Fertigung"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Bedeutung neuer IT-Technologien:"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nutzen neuer IT[EUR]"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName111"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Kosten neuer IT[EUR]"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Cloud-Computing-Integration:"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Einsatzzeit der Cloud[Std.]"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName11"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Gesamte Fertigungszeit[Std.]"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Zeiteffizienz [%]:"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Durchlaufzeit digitaler Prozess [Min.]"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName13"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Durchlaufzeit Prozess alt [Min.]"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Finanzieller Erfolg [%]:"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="EBIT aus Produkten [EUR]"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName15"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Umsatz aus neuen digitalen [EUR]"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Kundenerfolg [%]:"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Umsatz aus neuen Produkten[EUR]"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName17"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Gesamtumsatz [EUR]"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Prozesskosteneffizienz [%]:"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Prozesskosten Ist digitaler Prozess[EUR]"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName19"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Prozesskosten alt[EUR]"
+            android:inputType="number" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="#ff1da1f2"
+            android:src="@android:drawable/button_onoff_indicator_on" />
+    </LinearLayout>
+</ScrollView>

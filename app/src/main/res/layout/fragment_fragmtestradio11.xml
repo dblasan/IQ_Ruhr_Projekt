@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/simpleiqimage"
+        android:layout_width="wrap_content"
+        android:layout_height="718dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-294dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="306dp"
+        android:src="@drawable/iqfinal" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="true"
+        android:src="@android:drawable/checkbox_on_background" />
+
+    <RadioGroup
+        android:id="@+id/set_radiogroup10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header11"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="75dp"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/two_sets111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:text="Nein" />
+
+        <RadioButton
+            android:id="@+id/two_set11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:text="@string/kaum" />
+
+        <RadioButton
+            android:id="@+id/two_set110"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:text="@string/kleiner_teil" />
+
+        <RadioButton
+            android:id="@+id/two_set1101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:text="@string/grosser_teil" />
+
+        <TextView
+            android:id="@+id/avg_testtv11"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            android:text="11/31"
+            android:textSize="25dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/header11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="Nutzen Sie Home-Office im Unternehmen?"
+        android:textSize="25dp"
+
+        />
+</RelativeLayout>

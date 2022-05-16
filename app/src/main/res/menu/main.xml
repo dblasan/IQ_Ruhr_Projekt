@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/iqunterMen2"
+        android:orderInCategory="100"
+        android:title="Schnell Check Lieferant"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/iqunterMen1"
+        android:orderInCategory="100"
+        android:title="Kennzahlenberechnung"
+        app:showAsAction="never" />
+<!--   -->
+    <item
+        android:id="@+id/item5"
+        android:title="HomeSeite"
+        app:showAsAction="never"
+        android:orderInCategory="100">
+
+    </item>
+    <item
+        android:id="@+id/iqunterMen4"
+        android:orderInCategory="100"
+        android:title="Schnell Check Kunde"
+        app:showAsAction="never" />
+
+</menu>

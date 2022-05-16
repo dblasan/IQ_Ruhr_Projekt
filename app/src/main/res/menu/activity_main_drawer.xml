@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+   <!-- <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/themen"
+            android:orderInCategory="100"
+            android:title="Themen"
+            android:titleCondensed="Item 2">
+            <menu>
+
+                <item
+                    android:id="@+id/ThemenUnterM1"
+                    android:title="Transformation"
+                    android:orderInCategory="100" />
+
+                <item
+                    android:id="@+id/ThemenUnterM2"
+                    android:title="Qualifizierung"
+                    android:orderInCategory="100" />
+                <item
+                    android:id="@+id/ThemenUnterM3"
+                    android:title="Qualifizierungsmanagement"
+                    android:orderInCategory="100" />
+                <item
+                    android:id="@+id/ThemenUnterM4"
+                    android:title="Wissenstransfer"
+                    android:orderInCategory="100" />
+                <item
+                    android:id="@+id/ThemenUnterM5"
+                    android:title="Seminarentwicklung"
+                    android:orderInCategory="100" />
+                <item
+                    android:id="@+id/ThemenUnterM6"
+                    android:title="Vernetzung"
+                    android:orderInCategory="100"/>
+                <item
+                    android:id="@+id/ThemenUnterM7"
+                    android:title="Fördermittel"
+                    android:orderInCategory="100" />
+
+            </menu>
+        </item>
+    </group>-->
+    <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/homeunterMen1"
+                    android:title="IQ Ruhr"
+                    android:orderInCategory="100"/>
+
+                <item
+                    android:id="@+id/homeunterMen3"
+                    android:title="Home"
+                    android:orderInCategory="100"/>
+
+    </group>
+
+</menu>

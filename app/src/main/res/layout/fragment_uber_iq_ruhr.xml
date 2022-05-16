@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/design_default_color_background">
+
+    <ImageView
+        android:id="@+id/simpleiqimage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginTop="-324dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="271dp"
+        android:src="@drawable/iqfinal" />
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="264dp"
+        android:gravity="left"
+        android:inputType="textMultiLine"
+        android:text="Als IQ Ruhr wurden wir 2005 gegründet. Wir blicken jedoch auf eine weitaus längere Tradition zurück, denn wir haben unsere Wurzeln im Bildungswerk Witten/Hattingen [BWH], einem der bekanntesten Träger der Region Ruhr der 1980er bis 2000er-Jahre.  Das BHW selbst hatte seine Wurzeln in der Henrichshütte, welche bereits 1854 gegründet wurde. Als moderner und innovativer Bildungsträger führen wir Seminare und Lehrgänge aller Art durch: Kommunikationstrainings, Prüfungsvorbereitungen, Online-Trainings, IT-Schulungen für Unternehmen und Organisationen und vieles mehr. Wir kooperieren mit Unternehmen, Organisationen, IHK und anderen Akteuren der Wirtschaft und des Arbeitsmarktes in den Bereichen Innovation und Qualifizierung. " />
+
+    <TextView
+        android:id="@+id/k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="222dp"
+        android:gravity="left"
+        android:inputType="text"
+        android:text="Hauptsitz"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/ki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="196dp"
+        android:gravity="left"
+        android:inputType="text"
+        android:text="IQ Ruhr GmbH"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ki2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="77dp"
+        android:gravity="left"
+        android:text=" Ruhrallee 19 \n [Eingang: Am Walzwerk 17] \n 45527 Hattingen \n Tel: 02324 918-0 \n E-Mail: info@iqruhr.de"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/uberiqruhr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="@string/hyperlink2"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="123dp"
+        android:background="@color/design_default_color_background"
+
+        android:text="IQ Ruhr" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="123dp"
+        android:background="@color/design_default_color_background"
+        android:text="Themen" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="37dp"
+        android:background="@color/design_default_color_background"
+        android:text="Home" />
+
+</RelativeLayout>

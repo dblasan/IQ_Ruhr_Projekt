@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/design_default_color_background">
+
+    <ImageView
+        android:id="@+id/simpleiqimage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="-324dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="271dp"
+        android:src="@drawable/iqfinal" />
+
+    <ImageView
+        android:id="@+id/simplplequalifimage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-56dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="57dp"
+        android:src="@drawable/qualifizierung" />
+
+    <TextView
+        android:id="@+id/qualif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="289dp"
+        android:gravity="left"
+        android:inputType="text"
+        android:text="Qualifizierung"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/qualiftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="21dp"
+        android:gravity="left"
+        android:inputType="textMultiLine"
+        android:text="Beim Vergleich zwischen IST- und SOLL-Zustand wird sich herausstellen, dass Änderungen im Unternehmen erfolgen müssen, bspw. in der technischen Ausstattung oder Infrastruktur. Oft sind hiermit Änderungen von Abläufen und Methoden verbunden – dies bringt auch veränderte Anforderungen an die Qualifikation der Beschäftigen mit sich. Unternehmen müssen diesen Bereich ganz genau im Blick haben, denn eine neue technische Einrichtung ist unbrauchbar, wenn sie nicht richtig bedient werden kann. Die erforderlichen Qualifikationen gehen aber weit über das einfache Beherrschen einer neuen Maschine hinaus. Anforderungen an Kommunikation, Teamwork und die Beherrschung neuer Medien sind im Rahmen der Transformation vollkommen verändert. Um Beschäftigte fit für neue Anforderungen zu machen ist ein allumfassendes Qualifizierungsmanagement unerlässlich.">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/design_default_color_background"
+        android:clickable="true"
+        android:text="Themen" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="38dp"
+        android:background="@color/design_default_color_background"
+        android:clickable="true"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/design_default_color_background"
+        android:clickable="true"
+        android:text="IQ Ruhr" />
+
+
+</RelativeLayout>

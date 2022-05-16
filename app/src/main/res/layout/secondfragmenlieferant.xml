@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/design_default_color_background">
+
+    <ImageView
+        android:id="@+id/simpleiqimage"
+        android:layout_width="match_parent"
+        android:layout_height="731dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="-296dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="306dp"
+        android:src="@drawable/iqfinal" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="true"
+        android:src="@android:drawable/checkbox_on_background" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="Wie lange arbeiten Sie bereits mit Ihrem Lieferanten zusammen?"
+        android:textSize="25dp" />
+
+    <RadioGroup
+        android:id="@+id/liefer_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        android:layout_below="@+id/header"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/lierant_set1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:text="@string/weniger_als_12_monate" />
+
+        <RadioButton
+            android:id="@+id/lierant_set2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:text="@string/mehr_als_12_aber_weniger_als_24_monate" />
+
+        <RadioButton
+            android:id="@+id/lierant_set3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:text="@string/mehr_als_24_aber_weniger_als_36_monate" />
+
+        <RadioButton
+            android:id="@+id/lierant_set4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:text="@string/mehr_als_36_monate" />
+
+        <TextView
+            android:id="@+id/avg_testtv"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:text="2/21"
+            android:textSize="25dp" />
+
+    </RadioGroup>
+
+</RelativeLayout>

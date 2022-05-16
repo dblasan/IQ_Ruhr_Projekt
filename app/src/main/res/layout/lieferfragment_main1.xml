@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background"
+    android:id="@+id/lay"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/simpleiqimage"
+        android:layout_width="match_parent"
+        android:layout_height="731dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-279dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="306dp"
+        android:src="@drawable/iqfinal" />
+
+
+    <TextView
+        android:id="@+id/lieferfragtextv"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/ihre_digitalisierungsampel_steht_auf"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/lieferfragtextv21"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="390dp"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:text="@string/gerne_beraten_wir_sie_in_ihren_projekten_nwir_freuen_uns_auf_ihre_e_mail_oder_auf_ihren_anruf_nconsulting_iqruhr_de_n02324_918_0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="22dp"
+        android:clickable="true"
+        android:src="@android:drawable/checkbox_on_background" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabas"
+        android:layout_width="144dp"
+        android:layout_height="205dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:src="@android:drawable/checkbox_on_background" />
+
+
+</RelativeLayout>

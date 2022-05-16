@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Trans ActApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Trans Act App</string>
+    <string name="nav_header_subtitle">transact-app@iqruhr.de</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hyperlink2"><a href=''>Quick Check</a></string>
+    <string name="hyperlink3"><a href='https://iqruhr.de/index.php/karriere/'>Karriere</a></string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_iq_Ruhr">Über IQ Ruhr</string>
+    <string name="my_image_description">Image-Description</string>
+    <string name="transformation">Transformation(Lat. transformatio für Umformen)</string>
+    <string name="qualif">Qualifizierung</string>
+
+    <string name="text_description">Als IQ Ruhr wurden wir 2005 gegründet. Wir blicken jedoch auf eine weitaus längere Tradition zurück, denn wir haben unsere Wurzeln im Bildungswerk Witten/Hattingen [BWH], einem der bekanntesten Träger der Region Ruhr der 1980er bis 2000er-Jahre.  Das BHW selbst hatte seine Wurzeln in der Henrichshütte, welche bereits 1854 gegründet wurde. Als moderner und innovativer Bildungsträger führen wir Seminare und Lehrgänge aller Art durch: Kommunikationstrainings, Prüfungsvorbereitungen, Online-Trainings, IT-Schulungen für Unternehmen und Organisationen und vieles mehr. Wir kooperieren mit Unternehmen, Organisationen, IHK und anderen Akteuren der Wirtschaft und des Arbeitsmarktes in den Bereichen Innovation und Qualifizierung. </string>
+    <string name="Transformationsbeschreibung">umfasst die bislang geläufigeren Begriffe wie Wandel, Reorganisation und Modernisierung und meint einen noch tiefergreifenden Umbruch verstärkt von der Gleichzeitigkeit von Klimakrise, Energiewende, Transformation und Folgen der COVID19-Pandemie. \n Haupttreiber der Transformation Digitalisierung von Produkten, Serviceleistungen sowie Prozessen Daten werden zu wertvollsten Ressourcen der Unternehmen Immens wachsende Erwartungen hinsichtlich schneller Informationen (z.B. über Unternehmen, Produkte, Transparenz und stetige Erreichbarkeit uvm) Bedingungen der Globalisierung, Energiewende und damit auch der Elektromobilität beschleunigen die Entwicklung, Trendbestimmung (Vorhersagen) und Produkt-entwicklung werden noch wichtiger</string>
+    <string name="qualifbeschreibung">Beim Vergleich zwischen IST- und SOLL-Zustand wird sich herausstellen, dass Änderungen im Unternehmen erfolgen müssen, bspw. in der technischen Ausstattung oder Infrastruktur. Oft sind hiermit Änderungen von Abläufen und Methoden verbunden – dies bringt auch veränderte Anforderungen an die Qualifikation der Beschäftigen mit sich. Unternehmen müssen diesen Bereich ganz genau im Blick haben, denn eine neue technische Einrichtung ist unbrauchbar, wenn sie nicht richtig bedient werden kann. Die erforderlichen Qualifikationen gehen aber weit über das einfache Beherrschen einer neuen Maschine hinaus. Anforderungen an Kommunikation, Teamwork und die Beherrschung neuer Medien sind im Rahmen der Transformation vollkommen verändert. Um Beschäftigte fit für neue Anforderungen zu machen ist ein allumfassendes Qualifizierungsmanagement unerlässlich.
+
+Die Themen, in denen Qualifizierung erfolgt, sind vielfältig. Lernmethoden und Lernformen oft sehr individuell. Hier ein Auszug aus unserem Portfolio:</string>
+    <string name="vernetzungstext">Transformation besteht nicht nur aus einzelnen Qualifizierungsinhalten. Sie ist stets geprägt durch vielfältige Themenbereiche, die miteinander vernetzt sind. Neue Arbeitsprozesse ziehen z.B. oft veränderte Kommunikationswege nach sich. Aber auch Bereiche des Arbeitsrechts, des Gesundheitsschutzes und Arbeitssicherheit können von der Transformation berührt werden. Unser Netzwerk bietet viel Erfahrung in der thematischen und didatischen Umsetzung von Konzepten, die Transformationsprozesse als Ganzes verstehen. Somit können wissenschaftliche Ansätze für ihr Unternehmen ganz praktisch nutzbar gemacht werden.</string>
+    <string name="Seminartext">Nicht alle auf dem Markt erhältlichen Seminare passen zu Ihnen und zu Ihrem Unternehmen. Veränderte Lernziele und Inhalte sowie spezielle Lernumgebungen erfordern manchmal die Erstellung individueller Konzepte und Umsetzungen. Wir erstellen passgenaue Qualifizierungene, die sich nicht nur inhaltlich sondern auch zeitlich perfekt auf Unternehmen und deren Beschäftigte abgestimmt sind.</string>
+    <string name="foerdertext">Fördermittel stehen für Qualifizierungsmaßnahmen und Transformations- und Beratungsprozesse auf Landes- und Bundesebene zur Verfügung. Auch die Europäische Union stellt Fördertöpfe bereit, die beim Vorhandensein bestimmter Voraussetzungen in Anspruch genommen werden können. Hierdurch kann der finanzielle Aufwand für Unternehmen unter Umständen minimiert und der auch wirtschaftliche Erfolg von Projekten optimiert werden.</string>
+    <string name="pirates">"ja"</string>
+    <string name="ninjas">"Nein"</string>
+    <string name="Unternehmensgrösse">Wie groß ist das Unternehmen?</string>
+    <string name="Unternehmensgrösse1">Wie ist die Unternehmensgröße Ihres Lieferanten?</string>
+
+    <string name="KleinerZehn"><![CDATA[< 10]]></string>
+    <string name="Kleiner50"><![CDATA[< 50]]></string>
+
+    <string name="Grosser_250"><![CDATA[>= 250]]></string>
+     <string name="_50_mbit"><![CDATA[< 50 Mbit]]></string>
+    <string name="_100_mbit"><![CDATA[< 100 Mbit]]></string>
+    <string name="a100Mbit"><![CDATA[> 100 Mbit]]></string>
+    <string name="_200_mbit"><![CDATA[> 200 Mbit]]></string>
+    <string name="internetanbindung">Wie ist Ihre Internetanbindung?</string>
+    <string name="alternativer_zugang_vorhanden_lte">Verfügen Sie über einen alternativen Internetzugang?</string>
+    <string name="kleiner_teil">kleiner Teil</string>
+    <string name="kaum">kaum</string>
+    <string name="grosser_teil">großer Teil</string>
+    <string name="regelm_ige_updates_betriebssystem">Führen Sie regelmäßige Updates der Betriebssysteme durch?</string>
+    <string name="richtlinien_vorhanden_policies">Verfügen Sie über Richtlinien?</string>
+    <string name="werden_die_updates_zuvor_getestet">Werden die Updates zuvor getestet ?</string>
+    <string name="verschl_sselung_cloud">Sind Ihre Daten in der Cloud verschlüsselt?</string>
+    <string name="_250"><![CDATA[< 250]]></string>
+    <string name="Grossergleich250"><![CDATA[>= 250]]></string>
+    <string name="_50_mbit_Gros"><![CDATA[> 50 Mbit]]></string>
+    <string name="produzierendes_gewerbe">Produzierendes Gewerbe</string>
+    <string name="dienst__leistung">Dienstleistung</string>
+    <string name="verf_gen_sie_ber_ein_qualifizierungskonzept">Verfügen Sie über ein Qualifizierungskonzept</string>
+    <string name="weniger_als_12_monate">weniger als 12 Monate</string>
+    <string name="mehr_als_12_aber_weniger_als_24_monate">mehr als 12, aber weniger als 24 Monate</string>
+    <string name="mehr_als_24_aber_weniger_als_36_monate">mehr als 24, aber weniger als 36 Monate</string>
+    <string name="mehr_als_36_monate">mehr als 36 Monate</string>
+    <string name="via_e_mail">via E-Mail</string>
+    <string name="via_post">via Post</string>
+    <string name="via_homepage">via Homepage</string>
+    <string name="via_app">via App</string>
+    <string name="andere">Andere</string>
+    <string name="gerne_beraten_wir_sie_in_ihren_projekten_nwir_freuen_uns_auf_ihre_e_mail_oder_auf_ihren_anruf_n">Gerne beraten wir Sie in Ihren Projekten.\nWir freuen uns auf Ihre E-Mail oder auf Ihren Anruf:\n</string>
+    <string name="gerne_beraten_wir_sie_in_ihren_projekten_nwir_freuen_uns_auf_ihre_e_mail_oder_auf_ihren_anruf_nconsulting_iqruhr_de_n02324_918_0">Gerne beraten wir Sie in Ihren Projekten.\nWir freuen uns auf Ihre E-Mail oder auf Ihren Anruf:\nconsulting@iqruhr.de\n02324/918-0</string>
+    <string name="ihre_digitalisierungsampel_steht_auf">Ihre Digitalisierungsampel steht auf</string>
+
+    <item name="signature_canvas" type="id" />
+</resources>
