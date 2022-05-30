@@ -191,58 +191,10 @@ public class LieferFragmentMain1 extends Fragment {
         relativeLayout.removeAllViews();
         relativeLayout.addView(btnTag);
         relativeLayout.addView(btnTag1);
-        relativeLayout.addView(new DemoView(getActivity()));
+        relativeLayout.addView(new DemoView(getContext()));
         relativeLayout.addView(imageView);
         relativeLayout.addView(ts);
         relativeLayout.addView(mValue);
-
-       /* childLayout = new RelativeLayout(myContext);
-        @SuppressLint("DrawAllocation") RelativeLayout.LayoutParams linearParams = new RelativeLayout.LayoutParams(
-                RelativeLayout.LayoutParams.WRAP_CONTENT,
-                RelativeLayout.LayoutParams.WRAP_CONTENT);
-        childLayout.setLayoutParams(linearParams);
-
-        mValue.setLayoutParams(new RelativeLayout.LayoutParams(
-                RelativeLayout.LayoutParams.MATCH_PARENT,
-                RelativeLayout.LayoutParams.MATCH_PARENT));
-
-        mValue.setTypeface(null, Typeface.BOLD);
-        mValue.setTextSize(25);
-        mValue.setGravity(Gravity.CENTER);
-        mValue.setText(R.string.ihre_digitalisierungsampel_steht_auf);
-        childLayout.addView(mValue);
-        childLayout.addView(imageView);
-        myContext.addContentView(childLayout, linearParams);
-
-        childLayout1 = new RelativeLayout(myContext);
-        RelativeLayout.LayoutParams linearParams1 = new RelativeLayout.LayoutParams(
-                RelativeLayout.LayoutParams.WRAP_CONTENT,
-                RelativeLayout.LayoutParams.WRAP_CONTENT);
-        childLayout1.setLayoutParams(linearParams1);
-        ts = new TextView(myContext);
-        ts.setLayoutParams(new RelativeLayout.LayoutParams(
-                RelativeLayout.LayoutParams.MATCH_PARENT,
-                RelativeLayout.LayoutParams.MATCH_PARENT));
-        ts.setTypeface(null, Typeface.BOLD);
-        ts.setTextSize(13);
-        ts.setGravity(Gravity.BOTTOM);
-        ts.setText(R.string.gerne_beraten_wir_sie_in_ihren_projekten_nwir_freuen_uns_auf_ihre_e_mail_oder_auf_ihren_anruf_nconsulting_iqruhr_de_n02324_918_0);
-        childLayout1.addView(ts);
-        myContext.addContentView(childLayout1, linearParams1);
-
-        childLayout2 = new RelativeLayout(myContext);
-        RelativeLayout.LayoutParams linearParams2 = new RelativeLayout.LayoutParams(
-                RelativeLayout.LayoutParams.WRAP_CONTENT,
-                RelativeLayout.LayoutParams.WRAP_CONTENT);
-        linearParams2.topMargin = 300;
-        linearParams2.leftMargin = 30;
-        childLayout2.setLayoutParams(linearParams2);
-        btnTag.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,
-                RelativeLayout.LayoutParams.WRAP_CONTENT));
-        btnTag.setImageResource(android.R.drawable.checkbox_on_background);
-        btnTag.setSize(FloatingActionButton.SIZE_NORMAL);
-        childLayout2.addView(btnTag);
-        myContext.addContentView(childLayout2, linearParams2);*/
 
         btnTag.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -259,20 +211,6 @@ public class LieferFragmentMain1 extends Fragment {
                 newInstance();
             }
         });
-       /* btnTag1 = new FloatingActionButton(myContext);
-        childLayout3 = new RelativeLayout(myContext);
-        RelativeLayout.LayoutParams linearParams3 = new RelativeLayout.LayoutParams(
-                RelativeLayout.LayoutParams.WRAP_CONTENT,
-                RelativeLayout.LayoutParams.WRAP_CONTENT);
-        linearParams3.topMargin = 300;
-        linearParams3.leftMargin = 550;
-        childLayout3.setLayoutParams(linearParams3);
-        btnTag1.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,
-                RelativeLayout.LayoutParams.WRAP_CONTENT));
-        btnTag1.setImageResource(android.R.drawable.checkbox_on_background);
-        btnTag1.setSize(FloatingActionButton.SIZE_NORMAL);
-        childLayout3.addView(btnTag1);
-        myContext.addContentView(childLayout3, linearParams3);*/
 
         return rootView;
     }
@@ -399,6 +337,7 @@ public class LieferFragmentMain1 extends Fragment {
 
         }
 
+
         @SuppressLint("DrawAllocation")
         @Override
         public void onDraw(Canvas canvas) {
@@ -415,7 +354,8 @@ public class LieferFragmentMain1 extends Fragment {
             } else if (gewichtgesamt >= 24 && gewichtgesamt <= 30) {
                 // draw yellow circle with anti aliasing turned off
                 paint.setColor(Color.YELLOW);
-                canvas.drawCircle(350, 700, 50, paint);
+                canvas.drawCircle(350, 600, 50, paint);
+
                 Toast.makeText(myContext, "Teilweise Kritische Umfrageforschritt",
                         Toast.LENGTH_SHORT).show();
 
@@ -423,7 +363,7 @@ public class LieferFragmentMain1 extends Fragment {
             // draw green circle with anti aliasing turned off
             else if (gewichtgesamt > 30 && gewichtgesamt <= 35) {
                 paint.setColor(Color.GREEN);
-                canvas.drawCircle(350, 800, 50, paint);
+                canvas.drawCircle(350, 600, 50, paint);
                 Toast.makeText(myContext, "Umfrageforschritt verlief planmäßig",
                         Toast.LENGTH_SHORT).show();
 

@@ -344,7 +344,7 @@ public class HauptLieferfragment extends Fragment {
                 writer.close();
 
             }
-            Toast.makeText(getMyContext(), "Saved your text", Toast.LENGTH_LONG).show();
+            Toast.makeText(getMyContext(), "EMPHFEHLUNGSTEXTE LOKAL GESPEICHERT", Toast.LENGTH_LONG).show();
         } catch (Exception e) {
             e.printStackTrace();
 
@@ -353,8 +353,7 @@ public class HauptLieferfragment extends Fragment {
     }
 
     private void readFromFile() {
-        gpxfile = new File(dir, "muster.txt");
-        String ret = "";
+         String ret = "";
 
         try {
 
@@ -371,30 +370,9 @@ public class HauptLieferfragment extends Fragment {
             ex.printStackTrace();
         }
 
-        Log.d("Gesamtgewichtung", "Ausgabe: " + ret);
+        Log.d("EMPFEHLUNGSTEXTE:", "\n" + ret);
     }
 
-    public String readFile() {
-
-        StringBuilder text = new StringBuilder();
-        String line = "";
-
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(gpxfile));
-            while ((line = br.readLine()) != null) {
-                text.append(line);
-                text.append('\n');
-            }
-            br.close();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-
-        }
-        String result = text.toString();
-        return result;
-
-    }
 
     @Override
     public void onAttach(Activity activity) {
